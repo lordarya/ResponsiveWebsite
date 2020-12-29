@@ -3,71 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BigTiresBali</title>
+    <title>Big Tires Family</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <div class="container">
-        <header class="header">
-            <div class="hero">
-                <h2 class="heading">BigTires Family Bali</h2>
-                <p class="sub-heading">Choose Your Touring Bikes</p>
-            </div>
-            <div class="features feature-1">
-                <h4 class="price">IDR 2.500.000,00</h4>
-                <p class="items">Ducati Panigale V4R</p>
-            </div>
-            <div class="features feature-2">
-                <h4 class="price">IDR 1.500.000,00</h4>
-                <p class="">Kawasaki Ninja ZX10R</p>
-            </div>
-        </header>
-        <nav class="menu">
-            <div class="menu-toggle">
-                <input type="checkbox" onclick="toggle()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="brand">
-                <h1>BigTires<span>Bali</span></h1>
-                <p>Choose Your Touring Bikes</p>
-            </div>
-            <div class="menu-list">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <h1>BigTires<span>Bali</span></h1>
+                    <p>Choose Your Touring Bikes</p>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Gear</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">
+                            <div class="button">Sign In</div>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="menu-toggle">
+                    <input type="checkbox" onclick="toggle()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </nav>
-        <section class="services">
-            <div class="service">
-                <div class="icon touring"></div>
-                <h3>Touring Bikes</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa iste, reiciendis non eos officia.</p>
-            </div>
-            <div class="service">
-                <div class="icon modifikasi"></div>
-                <h3>Modification Part</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa iste, reiciendis non eos officia.</p>
-            </div>
-            <div class="service">
-                <div class="icon gear"></div>
-                <h3>Ride Gears</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa iste, reiciendis non eos officia.</p>
-            </div>
-            <div class="service">
-                <div class="icon merch"></div>
-                <h3>Merchandise</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa iste, reiciendis non eos officia.</p>
-            </div>
-        </section>
-    </div>
+        <header class="header">
+            <h3>Big Tires Family</h3>
+            <h2>Come and Make Your Dreams Become True</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vero iste reiciendis, provident tenetur quisquam. Obcaecati hic ipsa esse quae tenetur itaque est laborum, aliquid qui, assumenda totam eum repudiandae?</p>
+                
+        </header>
 
-    <script src="js/scripts.js"></script>
+        <div class="search">
+            <select name="" id="" class="combo">
+                <option value="" disabled>Models</option>
+                <option value="" hidden>Models</option>
+                <option value="">1</option>
+            </select>
+            <select name="" id="" class="combo">
+                <option value="" disabled>Brand</option>
+                <option value="" hidden>Brand</option>
+            </select>
+            <select name="" id="" class="combo">
+                <option value="" disabled>Tahun</option>
+                <option value="" hidden>Tahun</option>
+                <option value="">1</option>
+            </select>
+            <button type="submit" class="combo search-btn">Search</button>
+        </div>
+
+        <div class="favorites">
+            <h2>Most Favorite Bikes</h2>
+            <div class="favorite favorite-1">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur</p></div>
+                <div class="review">* * * * *</div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+            <div class="favorite sidefavorite favorite-2">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur</p></div>
+                <div class="review">* * * * *</div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+            <div class="favorite sidefavorite favorite-3">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur</p></div>
+                <div class="review">* * * * *</div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+        </div>
+        
+        <div class="news">
+            <h2 class="test" id="test">New Bikes 2020</h2>
+            <div class="new new-1">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur adipisicing </p></div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+            <div class="new new-2">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur adipisicing </p></div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+            <div class="new new-3">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur adipisicing </p></div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+            <div class="new new-1">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur adipisicing </p></div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+            <div class="new new-2">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur adipisicing </p></div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+            <div class="new new-3">
+                <div class="image"></div>
+                <div class="judul"><h3>Ducati Panigale V4R</h3></div>
+                <div class="deskripsi"><p>Lorem ipsum dolor sit amet consectetur adipisicing </p></div>
+                <div class="detail">Details</div>
+                <div class="rent">Rent Bikes</div>
+            </div>
+        </div>
+    </div>      
+
+    <script src="js/scripts.js">
+       
+    </script>
 </body>
 </html>
