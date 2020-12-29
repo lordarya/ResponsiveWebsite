@@ -335,7 +335,21 @@ header h2 {
         "image image image"
         "judul judul judul"
         "desc  desc desc"
-        "kosong detail rent";    
+        "kosong detail rent";  
+}
+.new .image {
+    display: grid;
+    font-size: 2em;
+    color: white;
+}
+.image h2 {
+    opacity: 0;
+    transition: 1s;
+}
+.image h2:hover  {
+    opacity: 1;
+    cursor: pointer;
+
 }
 
 .new-1 .image{
@@ -350,6 +364,21 @@ header h2 {
 }
 .new-3 .image{
     background-image: url(/img/new3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.new-4 .image{
+    background-image: url(/img/new4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.new-5 .image{
+    background-image: url(/img/new5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.new-6 .image{
+    background-image: url(/img/new6.jpg);
     background-position: center;
     background-size: cover;
 }
