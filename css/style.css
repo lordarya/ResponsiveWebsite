@@ -337,7 +337,7 @@ header h2 {
         "desc  desc desc"
         "kosong detail rent";  
 }
-.new .image {
+.image {
     display: grid;
     font-size: 2em;
     color: white;
